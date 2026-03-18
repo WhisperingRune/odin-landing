@@ -89,10 +89,13 @@ ul {
 
 .hero-section img {
     background-color: gray;
-    width: 860px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
     flex: 0 1 auto;
     margin-right: 10%;
+    box-shadow: 0 0 15px 1px black;
+    object-fit: cover;
+    object-position: center bottom;
 }
 
 .information-section {
